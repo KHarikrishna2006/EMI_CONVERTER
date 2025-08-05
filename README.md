@@ -24,8 +24,8 @@ A simple and user-friendly **EMI (Equated Monthly Installment) Calculator** buil
 ---
 
 ## 📸 Screenshots
+<img width="1920" height="1008" alt="Screenshot 2025-08-05 213248" src="https://github.com/user-attachments/assets/36570927-3753-40c6-a5f9-8e4aa98f7cc8" />
 
-![EMI Calculator Screenshot](<img width="1920" height="1008" alt="Screenshot 2025-08-05 213248" src="https://github.com/user-attachments/assets/04557cd1-874a-400a-873d-20c42662eb0d" />
 )
 
 ---
