@@ -1,100 +1,54 @@
-/* General reset and layout */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, #f8f9fa, #e9ecef);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
 }
 
-/* Heading */
-h2 {
-    color: #343a40;
-    margin-top: 40px;
-    font-size: 28px;
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
     text-align: center;
-}
-
-/* Form styling */
-form {
-    background-color: #ffffff;
-    padding: 30px 40px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 400px;
-    margin-top: 20px;
-    transition: all 0.3s ease-in-out;
+    color: #333;
 }
 
 form label {
     display: block;
     margin-top: 15px;
-    font-weight: 600;
-    color: #495057;
 }
 
-input {
+form input {
     width: 100%;
-    padding: 10px 12px;
+    padding: 8px;
     margin-top: 5px;
-    border: 1px solid #ced4da;
-    border-radius: 8px;
     box-sizing: border-box;
-    font-size: 16px;
-    transition: 0.2s ease-in-out;
-}
-
-input:focus {
-    border-color: #4dabf7;
-    outline: none;
-    box-shadow: 0 0 5px rgba(77, 171, 247, 0.4);
 }
 
 button {
     margin-top: 20px;
     width: 100%;
-    padding: 12px;
-    background-color: #4dabf7;
+    padding: 10px;
+    background-color: #0066cc;
     color: white;
     border: none;
-    border-radius: 8px;
-    font-size: 17px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.3s;
+    border-radius: 5px;
 }
 
-button:hover {
-    background-color: #339af0;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(51, 154, 240, 0.2);
-}
-
-/* Result box styling */
-.result {
-    background-color: #ffffff;
+.results {
     margin-top: 30px;
-    padding: 20px 30px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-    width: 90%;
-    max-width: 400px;
-    color: #212529;
-    transition: 0.3s;
+    background: #e7f3fe;
+    padding: 20px;
+    border-radius: 5px;
 }
 
-.result h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    color: #0b7285;
-}
-
-.result p {
-    margin: 8px 0;
-    font-size: 16px;
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
 }
