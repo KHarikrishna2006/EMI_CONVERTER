@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan EMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Loan EMI Calculator</h2>
+    <form method="POST">
+        <label>Principal (₹):</label>
+        <input type="number" name="principal" required>
+
+        <label>Annual Interest Rate (%):</label>
+        <input type="number" name="rate" step="0.01" required>
+
+        <label>Loan Duration (Years):</label>
+        <input type="number" name="years" required>
+
+        <button type="submit">Calculate EMI</button>
+    </form>
+
+    {% if emi %}
+        <div class="result">
+            <h3>Results:</h3>
+            <p><strong>EMI:</strong> ₹{{ emi }}</p>
+            <p><strong>Total Payment:</strong> ₹{{ total_payment }}</p>
+            <p><strong>Total Interest:</strong> ₹{{ total_interest }}</p>
+        </div>
+    {% endif %}
+</body>
+</html>
