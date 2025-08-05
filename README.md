@@ -105,3 +105,9 @@ This project is licensed under the MIT License.
 **K. Hari Krishna**
 
 GitHub: [@KHarikrishna2006](https://github.com/KHarikrishna2006)
+
+🔹 Hosting
+The EMI Calculator Flask application is currently hosted on Replit and can be accessed online.
+
+🌐 Live Demo:
+https://93a68281-4c43-42e0-8d7d-59a699f87cc7-00-34ava7vuisrho.pike.replit.dev:3000/
