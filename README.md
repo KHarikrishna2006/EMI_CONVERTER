@@ -3,7 +3,6 @@
 A simple and user-friendly **EMI (Equated Monthly Installment) Calculator** built using **Python Flask**. This tool helps users calculate monthly EMIs, total interest, and total payment based on the loan amount, interest rate, and loan duration.
 
 ---
-
 ## 🚀 Features
 
 - Calculate EMI based on user inputs.
